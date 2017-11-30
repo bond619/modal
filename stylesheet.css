@@ -1,0 +1,56 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: grey;
+ /* width:100%;
+  height:100%; */
+}
+.middle-holder {
+  display: inline;
+  background-color: black;
+  height: 1000px;
+  width: 1000px;
+  border: 2px solid black;
+  
+}
+
+/* this element is used for my nav bar */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  
+}
+
+li {
+    float: left;
+  border-right: 1px solid #bbb;
+  width: 200px;
+}
+
+li a {
+    display: flex;
+    color: white;
+   
+    justify-conent: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+.panel-one {
+  display: flex;
+border: 2px solid black;
+  width: 100%;
+  height: 95%;
+  background-color: white;
+  flex-direction: column;
+  align-items: center;
+}
+
+
